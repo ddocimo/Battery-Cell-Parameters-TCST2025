@@ -7,12 +7,12 @@ cells as described in the following article. If you make use of this data,
 follow the appropriate licensing rules described by GNU General Public 
 License v3.0, and please cite the article:
 
-----------------------------Article Information----------------------------
+# ----------------------Article Information------------------------------ #
 P. T. Abadie, T. R. Jahan and D. J. Docimo, "A Joint Analysis and 
 Estimation Effort for Cell-to-Cell Variations in Lithium-Ion Battery 
 Packs," in IEEE Transactions on Control Systems Technology, vol. 33, no. 2,
 pp. 760-774, March 2025, doi: 10.1109/TCST.2024.3516364.
----------------------------------------------------------------------------
+# ----------------------------------------------------------------------- #
 
 Notes for the lithium-iron phosphate 18650 battery cells' data:
 

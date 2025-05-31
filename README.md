@@ -11,13 +11,16 @@ P. T. Abadie, T. R. Jahan and D. J. Docimo, "A Joint Analysis and Estimation Eff
 - Each structure in the mat file is data for an individual cell. Saved in each structure is the nominal capacity of the cell and a standard SOC map, along with the parameter maps that depend on this SOC: the open-circuit voltage (OCV), the ohmic resistance (R), the 3 relaxation state time constants (tau), and the 3 relaxation capacitances (C).
 
 - There are 66 batteries' parameters total, separated into two batches: 50 cells are from Manufacturer 1 (row 1) and 16 cells are from Manufacturer 2 (row 2). A cell's data structure can be accessed by indexing the "cell_data_LFP18650.mat" variable in MATLAB. For example, the capacity of the 10th cell from Manufacturer 2 would be found like so:
-        load('cell_data_LFP18650.mat')
-        cell_capacity = cell_data_LFP18650{2,10}.Q;
-  
-  Similarly, if one wanted to plot the open-circuit voltage curve:
-        open_circuit_voltage = cell_data_LFP18650{2,10}.OCV;
-        SOC_map = cell_data_LFP18650{2,10}.SOC;
-        plot(SOC_map,open_circuit_voltage)
+> load('cell_data_LFP18650.mat')
+> <br/>
+> cell_capacity = cell_data_LFP18650{2,10}.Q;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Similarly, if one wanted to plot the open-circuit voltage curve:
+> open_circuit_voltage = cell_data_LFP18650{2,10}.OCV;
+> <br/>
+> SOC_map = cell_data_LFP18650{2,10}.SOC;
+> <br/>
+> plot(SOC_map,open_circuit_voltage)
 
 - As described in the article, the capacity was determined from both charge and discharge profiles. The other parameter maps were fitted using the discharge profile only. Parameter maps based on the charge profile, as well as averaged maps, are available upon request.
 

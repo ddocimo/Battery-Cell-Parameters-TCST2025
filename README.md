@@ -4,6 +4,8 @@ This repository contains model parameters for lithium iron phosphate battery cel
 ## Article Information
 P. T. Abadie, T. R. Jahan and D. J. Docimo, "A Joint Analysis and Estimation Effort for Cell-to-Cell Variations in Lithium-Ion Battery Packs," in IEEE Transactions on Control Systems Technology, vol. 33, no. 2, pp. 760-774, March 2025, doi: 10.1109/TCST.2024.3516364.
 
+The article PDF is freely available at: [https://doi.org/10.1109/TCST.2024.3516364](https://doi.org/10.1109/TCST.2024.3516364) 
+
 ## Notes for the lithium-iron phosphate 18650 battery cells' data
 
 - The cells are from 2 different manufacturers, and the rows are such that every dataset in the same row is from the same manufacturer.
